@@ -20,6 +20,8 @@ print_info(){
   echo JAR: $JAR_NAME
   echo Java: $JAVA_HOME
   echo "======================"
+  java -version
+  echo "======================"
 }
 
 start_server() {
