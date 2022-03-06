@@ -23,7 +23,7 @@ print_info(){
 }
 
 start_server() {
-  java -Xmx$MEMORY $ARGS -jar $JAR_NAME;
+  java -Xmx$MEMORY $ARGS -jar ../$JAR_NAME;
   read -t 10 -p "Restarting in 10 Seconds (Press ENTER to restart now / Ctrl-C to terminate)"
   clear
   start_server
