@@ -1,5 +1,5 @@
 #!/bin/bash
-source ./startconf.sh
+source ./start-script/startconf.sh
 
 export JAVA_HOME=/usr/lib/jvm/java-$JAVA_VER-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
