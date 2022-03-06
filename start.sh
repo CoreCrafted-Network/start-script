@@ -29,5 +29,7 @@ start_server() {
   start_server
 }
 
+echo $(pwd)
 print_info
+echo $(pwd)
 start_server
