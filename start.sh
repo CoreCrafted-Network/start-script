@@ -1,7 +1,7 @@
 #!/bin/bash
 source ./start-script/startconf.sh
 
-export JAVA_HOME=/usr/lib/jvm/java-$JAVA_VER-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-$JAVA_VER-amazon-corretto
 export PATH=$JAVA_HOME/bin:$PATH
 
 if [ -z "$JAR_NAME" ]; then
